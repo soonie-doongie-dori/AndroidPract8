@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imageView777"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView182"
+            android:layout_width="367dp"
+            android:layout_height="530dp"
+            android:src="@drawable/blink"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.189" />
+
+        <Button
+            android:id="@+id/button100"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#2196F3"
+            android:text="start"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.192"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView182"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button200"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#2196F3"
+            android:text="stop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.329"
+            app:layout_constraintStart_toEndOf="@+id/button100"
+            app:layout_constraintTop_toBottomOf="@+id/imageView182"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

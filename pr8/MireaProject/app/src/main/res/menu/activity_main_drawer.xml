@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_Calculator"
+            android:icon="@drawable/ic_menu_calculator"
+            android:title="Calculator" />
+        <item
+            android:id="@+id/nav_browser"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Browser" />
+        <item
+            android:id="@+id/musicFragment"
+            android:icon="@drawable/ic_menu_audio"
+            android:title="Music Player" />
+        <item
+            android:id="@+id/threeSensorsFragment"
+            android:icon="@drawable/ic_menu_sensors"
+            android:title="Sensors" />
+        <item
+            android:id="@+id/cameraFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/recorderFragment"
+            android:icon="@drawable/ic_menu_recorder"
+            android:title="Audio record" />
+        <item
+            android:id="@+id/settingsFragment"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/storiesFragment"
+            android:icon="@drawable/ic_menu_stories"
+            android:title="Stories" />
+        <item
+            android:id="@+id/timeFragment"
+            android:icon="@android:drawable/btn_dropdown"
+            android:title="Time Fragment" />
+        <item
+            android:id="@+id/kittensFragment"
+            android:icon="@drawable/ic_menu_kittens"
+            android:title="Kittens" />
+    </group>
+</menu>

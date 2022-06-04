@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.lukyanchuk.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.lukyanchuk.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.lukyanchuk.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_Calculator"
+        android:name="ru.mirea.lukyanchuk.mireaproject.Calculator"
+        android:label="fragment_calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="ru.mirea.lukyanchuk.mireaproject.Browser"
+        android:label="fragment_browser"
+        tools:layout="@layout/fragment_browser" />
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="ru.mirea.lukyanchuk.mireaproject.MusicFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music" />
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="ru.mirea.lukyanchuk.mireaproject.CameraFragment"
+        android:label="CameraFragment"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/threeSensorsFragment"
+        android:name="ru.mirea.lukyanchuk.mireaproject.ThreeSensorsFragment"
+        android:label="fragment_three_sensors"
+        tools:layout="@layout/fragment_three_sensors" />
+    <fragment
+        android:id="@+id/recorderFragment"
+        android:name="ru.mirea.lukyanchuk.mireaproject.RecorderFragment"
+        android:label="RecorderFragment"
+        tools:layout="@layout/fragment_recorder" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.mirea.lukyanchuk.mireaproject.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/storiesFragment"
+        android:name="ru.mirea.lukyanchuk.mireaproject.ui.stories.StoriesFragment"
+        android:label="StoriesFragment"
+        tools:layout="@layout/fragment_stories" />
+    <fragment
+        android:id="@+id/timeFragment"
+        android:name="ru.mirea.lukyanchuk.mireaproject.ui.Authentication.TimeFragment"
+        android:label="TimeFragment"
+        tools:layout="@layout/fragment_time" />
+    <fragment
+        android:id="@+id/kittensFragment"
+        android:name="ru.mirea.lukyanchuk.mireaproject.ui.kittens.KittensFragment"
+        android:label="fragment_kittens"
+        tools:layout="@layout/fragment_kittens" />
+</navigation>
